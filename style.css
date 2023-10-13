@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #34495e;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.card {
+    background-color: white;
+    padding: 24px;
+
+    min-width: 300px;
+    border-radius: 32px;
+}
+
+.card .input-group {
+    margin-top: 8px;
+}
+
+.card input {
+    width: 100%;
+    padding: 4px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: solid 1px #7f8c8d;
+}
+
+.card button  {
+    background-color: #16a085;
+    border: none;
+    color: white;
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 24px;
+    
+}
+
+.resultado{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+
+.results{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+
+.result-value  {
+    background-color: #e67e22;
+    color: white;
+    margin: 8px;
+
+    width: 48px;
+    height: 48px;
+
+    border-radius: 50%;
+
+    text-align:  center;
+    line-height: 48px,;
+
+    text-align: center;
+    line-height: 48px;
+    font-size: 24px;
+    max-width: 80vw;
+}
+
+.results-values {
+    background-color: #e67e22;
+    color: white;
+    margin: 8px;
+
+    width: 48px;
+    height: 48px;
+
+    border-radius: 50%;
+
+    text-align:  center;
+    line-height: 48px,;
+
+    text-align: center;
+    line-height: 48px;
+    font-size: 24px;
+
+    
+    
+}
